@@ -1,0 +1,75 @@
+html{
+  box-sizing:border-box;
+}
+
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+
+header {
+  width: 100%;
+  position: relative;
+  background-color:#2c3950;
+}
+
+
+.robot{
+  position:relative;
+  width:320px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.body{
+width:320px;
+padding-top:2em;
+}
+
+.brain{
+  position: absolute;
+  width:46px;
+  top:6em;
+  left:8.5em;
+}
+
+.right{
+width:125px;
+position:absolute;
+right:35px;
+top: 50px;
+}
+
+.left{
+width:125px;
+position: absolute;
+left:2.2em;
+top: 50px;
+}
+
+h1{
+  position:absolute;
+  top: 8em;
+  text-align: center;
+  width:100%;
+  transition: all 200ms linear;
+  color:white;
+  background-color:#1a2230;
+  font-family: "Contrail One";
+}
+
+
+.robot:hover .left{
+  left:10px;
+  transition: all 200ms linear;
+}
+
+.robot:hover .right{
+  right:10px;
+  transition: all 200ms linear
+}
+
+.robot:hover .brain{
+  top:10px;
+  transition: all 200ms linear
+}
